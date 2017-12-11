@@ -38,7 +38,7 @@ class: title-slide-custom
 
 <br><br><br>
 
-## Creating powerful, transparent decision aids with FFTrees
+### FFTrees: Incredibly simple decision algorithms that can predict data as well as "black boxes".
 
 <br>
 
@@ -242,7 +242,7 @@ knitr::include_graphics(c("images/mri_diagnosis.jpg"))
 <br><br><br>
 ### Early attempt: HDPI
 <br3>
-<font size = 5>- Heart Disease Predictive Instrument (HDPI), a logistic regression solution.</font>
+<font size = 5>- Heart Disease Predictive Instrument (HDPI), a logistic regression--based solution.</font>
 
 <br3>
 
@@ -250,7 +250,12 @@ knitr::include_graphics(c("images/mri_diagnosis.jpg"))
 
 <br3>
 
-<font size = 5>- Why: Don't trust the tool, high confidence in individual decisions, and lack of time.</font>
+<font size = 5>- Why: Don't understand and therefore trust the tool, lack of time.</font>
+
+
+<br>
+
+<font size = 5>Lesson: The 'greatest' tool in the world is worthless if people don't use it</font>
 
 ]
 
@@ -444,7 +449,7 @@ knitr::include_graphics(c("images/terrorism_fft.png"))
 
 ### Goal
 <br3>
-<font size = 5>Create a <font color = "blue">simple tool</font> that allows anyone to create and <font color = "blue">customize</font>FFTs with minimal programming</font>
+<font size = 5>Create a <font color = "blue">simple tool</font> that allows anyone to create and <font color = "blue">customize</font> FFTs with minimal programming</font>
 <br4>
 <font size = 5>Visualize tree decisions using <font color = "blue">icon arrays</font></font>
 <br4>
@@ -617,6 +622,34 @@ knitr::include_graphics("images/heart_fft_train.png")
 <font size = 3>* Galesic, et al. (2009). Using icon arrays to communicate medical risks</font>
 
 ]
+
+---
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/contraceptive_scare_A.png")
+```
+
+---
+count: false
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/contraceptive_scare_B.png")
+```
+
+---
+count: false
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/contraceptive_scare_C.png")
+```
+
+
+
+---
+
+## plot(heart_FFT)
+
+
 
 ---
 count: false
@@ -1168,6 +1201,35 @@ knitr::include_graphics("images/simulation_accuracy_tree_2.png")
 ```
 
 
+
+---
+### It's not just me...
+
+.pull-left5[
+
+Tim Menzies, computer science professor at NC State University
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/menzies_ss.png")
+```
+
+]
+
+.pull-right5[
+
+11 December, 2017 Email from Tim, 
+
+> We spoke briefly, via email, a month or so ago. Since then we have found amazing results with FFTs.
+
+> This paper [LINK] tests 30+ common variants of software analytics [..] FFTs very clearly outperforms those variants.
+
+> We're writing a paper on this for mid-feb. it will appear at [LINK]. look for "Applications of PSYCHOLOGICAL SCIENCE to software analyics".
+
+]
+
+
+
+
 ---
 
 .pull-left6[
@@ -1246,32 +1308,33 @@ class: title-slide-custom
 
 <br><br><br>
 
-## Creating powerful, transparent decision aids with FFTrees
+### FFTrees: Incredibly simple decision algorithms that can predict data as well as "black boxes".
 
 <br>
 
-<font size = 6> Dr. Nathaniel D. Phillips</font>
+<font size = 6>Nathaniel Phillips</font>
 <br><br><br3>
 <font size = 5><i class="fa fa-globe"></i><a href = "http://ndphillips.github.io">   http://ndphillips.github.io</a></font>
 <br><br3>
 <font size = 5><i class="fa fa-envelope-o"></i>   Nathaniel.D.Phillips.is@gmail.com</font>
 <br><br3>
 
-<font size = 5><i class="fa fa-tv"></i>   Slides: <a href='http://ndphillips.github.io/RWDS2017'>http://ndphillips.github.io/RWDS2017</a></font>
+<font size = 5><i class="fa fa-tv"></i>   Slides: <a href='http://ndphillips.github.io/Konstanz_2017'>http://ndphillips.github.io/Konstanz_2017</a></font>
 
 
 <br><br>
 
-<font size = 5>Roche, Real World Data Science (RWDS), 13 November, 2017</font>
+
+<font size = 5>Konstanz, SPDS, December, 2017</font>
 
 <br>
 ]
 
 .pull-right35[
 
-<br><br><br><br><br>
+<br><br><br><font size = 5>Phillips et al. (2017). FFTrees [...]. Judgment and Decision Making.</font><br><br><br>
 ```{r, out.width = "100%"}
-knitr::include_graphics("images/heart_fft_test.png")
+knitr::include_graphics("images/manuscript_cover_short.png ")
 ```
 
 ]
