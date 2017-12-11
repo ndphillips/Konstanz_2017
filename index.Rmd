@@ -624,26 +624,44 @@ knitr::include_graphics("images/heart_fft_train.png")
 ]
 
 ---
+### Icon Arrays
 
-```{r, out.width = "90%"}
+```{r, out.width = "80%"}
 knitr::include_graphics("images/contraceptive_scare_A.png")
 ```
 
 ---
 count: false
+### Icon Arrays
 
-```{r, out.width = "90%"}
+```{r, out.width = "80%"}
 knitr::include_graphics("images/contraceptive_scare_B.png")
 ```
 
 ---
 count: false
+### Icon Arrays
 
-```{r, out.width = "90%"}
+```{r, out.width = "80%"}
 knitr::include_graphics("images/contraceptive_scare_C.png")
 ```
 
+---
+count: false
+### Icon Arrays
 
+```{r, out.width = "80%"}
+knitr::include_graphics("images/contraceptive_scare_D.png")
+```
+
+---
+count: false
+### Icon Arrays
+
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/contraceptive_scare_E.png")
+```
 
 ---
 
