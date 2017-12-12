@@ -1211,6 +1211,39 @@ knitr::include_graphics("images/simulation_accuracy_1.png")
 ```
 
 
+
+
+---
+
+.pull-left4[
+
+## Make a Prediction!
+<br>
+
+<font size = 5><a href="https://econpsychbasel.shinyapps.io/rwds_pred/">https://econpsychbasel.shinyapps.io/rwds_pred/</a></font>
+<br4>
+
+<font size = 5>What will the mean relative accuracy of FFTrees be to Random Forests?</font>
+
+$\Large RelativeAccuracy = \frac{Accuracy(FFTrees)}{Accuracy(RF)}$
+<br>
+>On average, across all 10 datasets, I am 90% confident that the average relative accuracy of FFTrees to random forests will be between X% and Y%*
+
+Go to
+[https://econpsychbasel.shinyapps.io/rwds_pred/](https://econpsychbasel.shinyapps.io/rwds_pred/) and enter your prediction!
+
+
+]
+
+.pull-right5[
+
+
+
+<iframe src="https://econpsychbasel.shinyapps.io/rwds_pred/"  width="900" height="600"></iframe>
+]
+
+
+
 ---
 count: false
 ```{r, out.width = "100%"}
@@ -1259,32 +1292,21 @@ knitr::include_graphics("images/simulation_accuracy_tree_2.png")
 
 
 
+
 ---
-### It's not just me...
+.pull-left3[
+## How accurate were your predictions?
 
-.pull-left5[
+Time to look at the results...
 
-Tim Menzies, computer science professor at NC State University
-
-```{r, out.width = "80%"}
-knitr::include_graphics("images/menzies_ss.png")
-```
 
 ]
 
-.pull-right5[
+.pull-right7[
 
-11 December, 2017 Email from Tim, 
-
-> We spoke briefly, via email, a month or so ago. Since then we have found amazing results with FFTs.
-
-> This paper [LINK] tests 30+ common variants of software analytics [..] FFTs very clearly outperforms those variants.
-
-> We're writing a paper on this for mid-feb. it will appear at [LINK]. look for "Applications of PSYCHOLOGICAL SCIENCE to software analyics".
+<iframe src="https://econpsychbasel.shinyapps.io/rwds_results/" width="1100" height="600"></iframe>
 
 ]
-
-
 
 
 ---
